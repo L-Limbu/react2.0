@@ -1,13 +1,12 @@
-.square-tile {
+.tile {
     height:5rem;
     width: 5rem;
-    border: solid black 1px;
+    border: solid black 2px;
 
     display: inline-block;
     line-height: 0px;
 
-
     font-weight:bolder;
-    font-size: 5.5rem;
+    font-size: 5rem;
 
 }
