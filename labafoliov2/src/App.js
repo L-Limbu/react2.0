@@ -1,13 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import { Board } from './components/TTT/Board';
+
 
 function App() {
-  const todos = [
-    {id:1, title:'wash dishes', completed:true},
-    {id:2, title:'tidy room', completed:false}
-  ]
   return (
     <div className="App">
+      <Board />
     </div>
   );
 }
