@@ -8,23 +8,11 @@
     grid-column-gap: 0;
 }
 
-.square-tile {
-    height:5rem;
-    width: 5rem;
-    border: solid black 2px;
-
-    display: inline-block;
-    line-height: 0px;
-
-    font-weight:bolder;
-    font-size: 5rem;
-
-}
 
 .winning-tile > .tile {
     background-color: greenyellow;
-    height:5.25rem;
-    width: 5.25rem;
+    height:5rem;
+    width: 5rem;
     border: solid black 4px;
     font-weight:bolder;
     font-size: 5rem;

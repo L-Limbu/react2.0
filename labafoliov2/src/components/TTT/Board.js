@@ -41,7 +41,7 @@ export function Board(){
     let board = []
     for (let i = 0; i<9; i++){
         board.push(
-            <div data-testid="square-tile" className="square-tile" key={i} onClick={() => handleClick(i)}>
+            <div data-testid="square-tile" key={i} onClick={() => handleClick(i)}>
                 {renderSquare(i)}
             </div>
         )

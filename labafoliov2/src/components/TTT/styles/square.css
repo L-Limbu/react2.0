@@ -1,7 +1,7 @@
 .tile {
     height:5rem;
     width: 5rem;
-    border: solid black 2px;
+    border: solid black 4px;
 
     display: inline-block;
     line-height: 0px;
