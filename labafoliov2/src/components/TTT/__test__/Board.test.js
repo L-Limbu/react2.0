@@ -20,7 +20,7 @@ test.each([[0],[1],[2],[3],[4],[5],[6],[7],[8]])('renders changed text in game w
     const text = screen.getByText('Player: O')
     expect(text).toHaveTextContent('Player: O')
 })
-test.each([[0],[1],[2],[3],[4],[5],[6],[7],[8]])('renders changed text in game when square is clicked twice', (i) => {
+test.each([[0],[1],[2],[3],[4],[5],[6],[7],[8]])('renders changed text in game when another square is clicked twice', (i) => {
     render(<Board />)
     let button = screen.getAllByRole('button')[i]
     fireEvent.click(button)
@@ -28,4 +28,13 @@ test.each([[0],[1],[2],[3],[4],[5],[6],[7],[8]])('renders changed text in game w
     fireEvent.click(clickedButton)
     const text = screen.getByText('Player: X')
     expect(text).toHaveTextContent('Player: X')
+})
+test.each([[0],[1],[2],[3],[4],[5],[6],[7],[8]])('text not changed in game when same square is clicked twice', (i) => {
+    render(<Board />)
+    let button = screen.getAllByRole('button')[i]
+    fireEvent.click(button)
+    let clickedButton = screen.getAllByRole('button')[i]
+    fireEvent.click(clickedButton)
+    const text = screen.getByText('Player: O')
+    expect(text).toHaveTextContent('Player: O')
 })
