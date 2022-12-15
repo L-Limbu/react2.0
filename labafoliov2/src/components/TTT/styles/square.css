@@ -10,3 +10,8 @@
     font-size: 5rem;
 
 }
+
+.tile:hover {
+    background-color: coral;
+    transition-duration: 0.5s ;
+}

@@ -36,13 +36,13 @@
     font-size: 2rem;
     font-weight: bold;
     margin:auto;
-    background-color: aquamarine;
+    background-color: rgb(216, 184, 236);
     border-radius: 10px;
     transition-duration: 0.5s;
 
 }
 
 .reset-button:hover{
-    background-color: rgb(81, 245, 152);
+    background-color: rgb(167, 182, 255);
     transition-duration: 1s;
 }
