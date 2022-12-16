@@ -1,12 +1,23 @@
 import './App.css';
-import { Board } from './components/TTT/Board';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Projects from './pages/Projects';
+import { StartPage } from './pages/StartPage';
+import NoPage from './pages/NoPage';
+import { Board } from './components/TTT/Board';
 
 function App() {
   return (
-    <div className="App">
-      <Board />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<StartPage />} /> 
+        <Route path='/projects' element={<Projects />} />
+
+        <Route path='/projects/tiktactoe' element={<Board />} />
+
+        <Route path='*' element={<NoPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -61,7 +61,7 @@ export function Board(){
     }
 
     return (
-        <div>
+        <div className="body">
             <p style={{fontSize:'4rem', fontWeight:'bold'}}>Tik-Tak-Toe</p>
             <p data-testid="status" style={{ fontSize: '3rem', fontWeight:"600" }}>
                 {status} {winnerStatus}

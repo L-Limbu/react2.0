@@ -41,6 +41,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^13.4.0",
+    "react-router-dom": "^6.4.5",
     "react-test-renderer": "^18.2.0"
   }
 }

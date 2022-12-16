@@ -1,3 +1,10 @@
+body{
+    margin:auto;
+    text-align: center;
+    background-color: rgb(131, 211, 225);
+}
+
+
 .board {
     display: grid;
     grid-template-columns: repeat(3, 0fr);
@@ -6,6 +13,7 @@
     justify-content: center;
     grid-row-gap: 0;
     grid-column-gap: 0;
+    font:white;
 }
 
 
