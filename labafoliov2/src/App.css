@@ -1,3 +1,13 @@
+body{
+  margin:auto;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color:aliceblue;
+  
+}
+a {
+  color: aliceblue;
+}
 .App {
   text-align: center;
 }

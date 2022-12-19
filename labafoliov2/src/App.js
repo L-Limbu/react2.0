@@ -5,6 +5,7 @@ import Projects from './pages/Projects';
 import { StartPage } from './pages/StartPage';
 import NoPage from './pages/NoPage';
 import { Board } from './components/TTT/Board';
+import Earth from './components/EarthCSS/Earth';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/projects' element={<Projects />} />
 
         <Route path='/projects/tiktactoe' element={<Board />} />
+        <Route path='/projects/earth' element={<Earth />} />
 
         <Route path='*' element={<NoPage />} />
       </Routes>
