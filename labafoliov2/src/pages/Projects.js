@@ -11,6 +11,7 @@ function Projects() {
 
 
       <Link to='/projects/tiktactoe' className="links">Tik-Tac-Toe</Link>
+      <br />
       <Link to='/projects/earth' className="links">Earth</Link>
       <Outlet />
     </div>

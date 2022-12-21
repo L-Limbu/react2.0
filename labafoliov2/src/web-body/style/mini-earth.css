@@ -1,0 +1,151 @@
+.l-system{
+    transform: scale(0.5);
+    margin-top: 1rem;
+}
+.l-map{
+  width: 4rem;
+  height: 4rem;
+  background-image: url('https://thumbs.dreamstime.com/b/simple-cartoon-style-world-map-stylized-silhouette-modern-minimal-isolated-vector-illustration-200692461.jpg');
+  box-shadow: 0.1rem 0.1rem 2rem 0.1rem rgb(86, 167, 225);
+  border-radius: 100%;
+  background-size: 6rem;
+  animation: l-spin 5s infinite linear;
+  transform: rotate(-23.5deg) skew(-2deg, 1deg);
+  z-index: 2;
+}
+.l-moon{
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(224, 227, 221);
+    border-radius: 100%;
+    animation: l-moon-orbit 6s linear infinite;
+    box-shadow: inset 10px 20px 30px 2px rgb(138, 148, 151);
+    position: absolute;
+    z-index: 1;
+    bottom: 1rem;
+}
+
+.l-spots-1{
+    border-radius: 100%;
+    height:0.3rem;
+    width: 0.3rem;
+    margin-top: 0.5rem;
+    margin-left:0.3rem;
+    background-color: rgb(119, 125, 130);
+}
+.l-spots-2{
+    border-radius: 100%;
+    height:0.5rem;
+    width: 0.5rem;
+    margin-top: 0.6rem;
+    margin-left:0.8rem;
+    background-color: rgb(96, 100, 104);
+}
+.l-spots-3{
+    border-radius: 100%;
+    height:0.4rem;
+    width: 0.4rem;
+    margin-top: -1.5rem;
+    margin-left:0.9rem;
+    background-color: rgb(117, 124, 131);
+}
+
+.l-iss-body{
+    height: 1rem;
+    width: 0.5rem;
+    background-color: rgb(205, 208, 203);
+    z-index: 1;
+    position: absolute;
+    margin-bottom : 0.75rem;
+}
+.l-panel{
+    height: 0.5rem;
+    width: 2rem;
+    background-color: rgb(212, 157, 69);
+    margin-left: -.75rem;
+}
+.l-iss{
+    position: absolute;
+    scale:0.5;
+    animation: l-iss-orbit 2s linear infinite;
+    left: 2rem;
+    bottom:1.5rem;
+}
+@keyframes l-spin{
+  0% {
+    background-position-x: 0
+  }
+  100% {
+    background-position-x: 6rem
+  }
+}
+
+@keyframes l-moon-orbit {
+    0%{
+      transform: translate(-4rem) translateY(-0.75rem);
+      animation-timing-function: ease-in;
+
+    }
+    15%{
+      z-index: -1;
+    }
+    25% {
+      transform: translate(1rem) scale(0.4);
+      animation-timing-function: ease-out;
+      z-index: -1;
+    }
+    50% {
+      transform: translate(6rem) translateY(0.75rem);
+      animation-timing-function: ease-in;
+      z-index: -1;
+    }
+    55%{
+      z-index: 3;
+    }
+    75% {
+      transform: translate(1rem) scale(1.1);
+      animation-timing-function: ease-out;
+      z-index: 3;
+    }
+
+    100% {
+        transform: translate(-4rem) translateY(-0.75rem);
+        animation-timing-function: ease-in;
+
+    }
+  } 
+
+  @keyframes l-iss-orbit {
+    0%{
+      transform: translate(-7rem) translateY(2rem);
+      animation-timing-function: ease-in;
+    }
+    5%{
+        z-index: -1;
+    }
+    25% {
+      transform:  scale(0.4);
+      animation-timing-function: ease-out;
+    }
+    45%{
+        z-index: -1;
+    }
+    50% {
+      transform: translate(5rem) translateY(-2rem);
+      animation-timing-function: ease-in;
+    }
+    55%{
+        z-index: 2;
+    }
+    75% {
+      transform:  scale(1.7);
+      animation-timing-function: ease-out;
+    }
+    95%{
+        z-index: 2;
+    }
+    100% {
+        transform: translate(-7rem) translateY(2rem);
+        animation-timing-function: ease-in;
+    }
+  } 

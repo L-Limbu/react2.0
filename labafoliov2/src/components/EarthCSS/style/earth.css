@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: 80vh;
 }
 .map{
   width: 200px;
@@ -14,7 +14,7 @@
   border-radius: 100%;
   background-size: 350px;
   animation: spin 5s infinite linear;
-  transform: rotate(-23.5deg);
+  transform: rotate(-23.5deg) skew(-2deg, 1deg);
   z-index: 2;
 }
 .moon{
@@ -22,7 +22,7 @@
     width: 3rem;
     background-color: rgb(224, 227, 221);
     border-radius: 100%;
-    animation: moon-orbit 7s linear infinite;
+    animation: moon-orbit 6s linear infinite;
     box-shadow: inset 5px 20px 50px 2px rgb(180, 191, 195);
     position: absolute;
     z-index: 1;
@@ -54,6 +54,26 @@
     background-color: rgb(157, 165, 172);
 }
 
+.iss-body{
+    height: 1rem;
+    width: 0.5rem;
+    background-color: rgb(205, 208, 203);
+    z-index: 1;
+    position: absolute;
+    margin-bottom : 0.75rem;
+}
+.panel-1{
+    height: 0.5rem;
+    width: 2rem;
+    background-color: rgb(212, 157, 69);
+    margin-left: -.75rem;
+    z-index: 1;
+}
+.iss{
+    position: absolute;
+    scale:0.5;
+    animation: iss-orbit 2s linear infinite;
+}
 @keyframes spin{
   0% {
     background-position-x: 0
@@ -66,19 +86,70 @@
 @keyframes moon-orbit {
     0%{
       transform: translate(0px) translateY(-50px);
+      animation-timing-function: ease-in;
+      animation-delay: 0.5s;
     }
     25% {
       transform: translate(250px)  scale(0.4);
+      animation-timing-function: ease-out;
       z-index: 1;
+      
     }
     50% {
       transform: translate(500px) translateY(50px);
+      animation-timing-function: ease-in;
+        animation-delay: 0.5s;
     }
+    
     75% {
-      transform: translate(250px) scale(1.6);
+      transform: translate(250px) scale(1.7);
+      animation-timing-function: ease-out;
       z-index: 3;
     }
+
     100% {
         transform: translate(0px) translateY(-50px);
+        animation-timing-function: ease-in;
+        animation-delay: 0.5s;
+
+    }
+  } 
+
+  @keyframes iss-orbit {
+    0%{
+      transform: translate(-230px) translateY(100px);
+      animation-timing-function: ease-in;
+      animation-delay: 0.5s;
+    }
+    5%{
+        z-index: 1;
+    }
+    25% {
+      transform: translate(0px)  scale(0.4);
+      animation-timing-function: ease-out;
+    }
+    45%{
+        z-index: 1;
+    }
+    50% {
+      transform: translate(230px) translateY(-100px);
+      animation-timing-function: ease-in;
+        animation-delay: 0.5s;
+    }
+    55%{
+        z-index: 2;
+    }
+    75% {
+      transform: translate(0px) scale(1.7);
+      animation-timing-function: ease-out;
+    }
+    95%{
+        z-index: 2;
+    }
+    100% {
+        transform: translate(-230px) translateY(100px);
+        animation-timing-function: ease-in;
+        animation-delay: 0.5s;
+
     }
   } 
