@@ -1,11 +1,14 @@
 .l-system{
     transform: scale(0.5);
     margin-top: 1rem;
+    left:3rem;
+    position: absolute;
+
 }
 .l-map{
   width: 4rem;
   height: 4rem;
-  background-image: url('https://thumbs.dreamstime.com/b/simple-cartoon-style-world-map-stylized-silhouette-modern-minimal-isolated-vector-illustration-200692461.jpg');
+  background-image: url('../../projects/EarthCSS/style/CartoonWorldMap.jpeg');
   box-shadow: 0.1rem 0.1rem 2rem 0.1rem rgb(86, 167, 225);
   border-radius: 100%;
   background-size: 6rem;

@@ -9,11 +9,11 @@
 .map{
   width: 200px;
   height: 200px;
-  background-image: url('https://thumbs.dreamstime.com/b/simple-cartoon-style-world-map-stylized-silhouette-modern-minimal-isolated-vector-illustration-200692461.jpg');
+  background-image: url('./CartoonWorldMap.jpeg');
   box-shadow: inset 5px 20px 50px 2px rgb(29, 88, 109);
   border-radius: 100%;
   background-size: 350px;
-  animation: spin 5s infinite linear;
+  animation: earth-spin 5s infinite linear;
   transform: rotate(-23.5deg) skew(-2deg, 1deg);
   z-index: 2;
 }
@@ -74,7 +74,7 @@
     scale:0.5;
     animation: iss-orbit 2s linear infinite;
 }
-@keyframes spin{
+@keyframes earth-spin{
   0% {
     background-position-x: 0
   }

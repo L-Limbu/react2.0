@@ -1,8 +1,13 @@
 .links {
     text-decoration: none;
-    color:aliceblue;
+    color:rgb(0, 0, 0);
 }
 
 .links:active {
     text-decoration: none;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
 }

@@ -10,9 +10,9 @@ body{
     display: flex;
     justify-content: center;
     gap:2rem;
-    height: 5rem;
-    border: 0.2rem solid rgb(0, 166, 172);
-    box-shadow: 0px 0px 3px 3px rgb(17, 157, 162);
+    height: 3rem;
+    background-color: #E07A5F;
+    /* box-shadow: 0px 0px 3px 3px rgb(17, 157, 162); */
 }
 
 .nav-bar ul {
@@ -30,12 +30,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 0.1rem solid rgb(0, 166, 172);
+    background-color: #81B29A;
+    border: 0.1rem solid #F4F1DE;
 }
 
-.nav-bar li:active{
-    background-color: teal;
-}
 .nav-bar li:hover{
-    background-color: teal;
+    background-color: #F4F1DE;
 }
