@@ -27,12 +27,12 @@ a {
 }
 .left-side{
   height:100%;
-  width:15rem;
+  width:15%;
   background-color: rgb(0, 0, 0);
 }
 .right-side{
   height:100%;
-  width:15rem;
+  width:15%;
   background-color: rgb(0, 0, 0);
 }
 
@@ -108,3 +108,24 @@ a {
 }
 
 
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+
+    .left-side{
+      width:1%;
+    }
+    .right-side{
+      width:1%;
+    }
+    .center-side{
+      width: 90%;
+    }
+
+}

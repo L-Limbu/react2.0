@@ -90,3 +90,32 @@ ul li {
         opacity: 100%;
     }
 }
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+
+    .swanseaPicture{
+      width:200px;
+    }
+    .startContainer{
+        display: contents;
+    }
+    .projectPicture{
+      width:200px;
+    }
+    .recordPicture{
+      width: 350px;
+    }
+    .recordHolder{
+        overflow: hidden;
+        height: 150px;
+    }
+
+}
