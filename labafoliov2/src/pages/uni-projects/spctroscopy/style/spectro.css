@@ -1,0 +1,27 @@
+.spectro-page-body{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+.spec-img {
+    width: 640px;
+    height: 480px;
+    border-radius: 8px;
+}
+.spec-img1 {
+    width: 640px;
+    height: 640px;
+    border-radius: 8px;
+}
+.spec-img2 {
+    width: 640px;
+    height: 350px;
+    border-radius: 8px;
+}
+
+.spectro-list-wrapper {
+    margin: auto;
+    max-width: fit-content;
+    text-align: left;
+    font-size: 1rem;
+}

@@ -1,0 +1,63 @@
+.container{
+    background-color: #FFC15E;
+    margin-top: 2.6rem;
+    border-bottom: 2px solid #3D405B;
+    border-top: 2px solid #3D405B;
+    border-radius: 1%;
+}
+.uni-projects-row{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+   
+}
+
+.uni-box{
+    height: 5rem; width: 10rem;
+    margin:auto;
+    margin-top: 1rem;
+    border: 2px solid #3D405B;
+    border-radius: 5%;
+    font-size: 1rem;
+    font-family: monospace;
+}
+.uni-project-display{
+    height: 25rem; width: 45rem;
+    margin:auto;
+    margin-top: 3rem;
+    border: 2px solid #3D405B;
+    border-radius: 3%;
+    background-color: azure;
+}
+.uni-box:hover {
+    background-color: #D81E5B; color:white
+}
+.atomActive{
+    background-color: #D81E5B; color:white
+}
+.solarActive {
+    background-color: #D81E5B; color:white
+}
+.astroActive {
+    background-color: #D81E5B; color:white
+}
+.spectroActive {
+    background-color: #D81E5B; color:white
+}
+.magnetActive {
+    background-color: #D81E5B; color:white
+}
+
+.uni-off-button{
+    height: 3rem; width:3rem;
+    margin-left: 90%;
+    margin-top:0.5rem;
+    padding-top: 0.7rem;
+    border: 1px solid #3D405B;
+    background-color: red;
+    border-radius: 100%;
+    color: white;
+    font-weight: bold;
+}
+.uni-off-button:hover{
+    cursor:pointer;
+}

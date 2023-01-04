@@ -1,0 +1,23 @@
+.solar-page-body{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+.solar-page-list-wrapper{
+    
+    margin: auto;
+    max-width: fit-content;
+    text-align: left;
+    text-decoration: dotted;
+}
+
+.solar-img{
+    border-radius: 5%;
+}
+
+.solar-videos {
+    width: 640px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 5px;
+}
