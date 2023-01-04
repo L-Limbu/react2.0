@@ -30,7 +30,7 @@ export function AtomTrapPage(){
             <video className='atom-videos' controls  loop playsInline={true}> <source src={video1} /></video>
             <br/>
             <p>
-                Looking at the animation the atom seems to be moving in circle within as circle hence the thick line in the 
+                Looking at the animation the atom seems to be moving in circle within a circle hence the thick line in the 
                 graph, but still it moves in a circle so it's trapped.
                 <br />
                 The animation shows that the atom is trapped forward/backwards and sideways such that it cannot escape

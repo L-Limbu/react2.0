@@ -61,6 +61,7 @@ ul li {
 .recordHolder{
     overflow: hidden;
     height: 13.5rem;
+  
 }
 .recordPicture{
     margin:auto;
@@ -114,8 +115,8 @@ and (orientation: portrait) {
       width: 350px;
     }
     .recordHolder{
-        overflow: hidden;
         height: 150px;
+        margin-bottom: 5rem;
     }
 
     .startBox2{
