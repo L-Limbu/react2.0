@@ -73,7 +73,7 @@ and (orientation: portrait) {
 
     .uni-page-container{
         width:100%;
-        margin: auto;
+        margin-top: 0;
         overflow: hidden;
         padding-bottom: 2rem;
     }
@@ -83,6 +83,8 @@ and (orientation: portrait) {
     }
     .uni-box{
         width: 6rem;
+        margin: auto;
+        color: black;
     }
 
     .uni-projects-row{
@@ -95,6 +97,6 @@ and (orientation: portrait) {
     .uni-off-button{
         position: absolute;
         right:3rem;
-        top:19rem;
+        top:16rem;
     }
 }
