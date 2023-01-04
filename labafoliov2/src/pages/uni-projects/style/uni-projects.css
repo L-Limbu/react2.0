@@ -58,6 +58,7 @@
 }
 .uni-off-button2{
     height: 3rem; width:3rem;
+    margin-top:0.5rem;
     border: 1px solid #3D405B;
     background-color: red;
     border-radius: 100%;
@@ -110,5 +111,6 @@ and (orientation: portrait) {
     .uni-off-button2{
         visibility:visible;
         margin: auto;
+        padding-top: 0.7rem;
     }
 }
