@@ -68,7 +68,7 @@ export function AtomTrapPage(){
                 is similar to a tiny bead.
             </p>
             <h3>Code used</h3>
-            <a href='https://github.com/L-Limbu/Penning-Trap' rel="noopener noreferrer" target="_blank"> Python</a>
+            <a className="ending-code-trap" href='https://github.com/L-Limbu/Penning-Trap' rel="noopener noreferrer" target="_blank"> Python</a>
         </div>
     )
 }

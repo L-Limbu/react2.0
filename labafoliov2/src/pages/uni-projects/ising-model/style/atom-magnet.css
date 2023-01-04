@@ -30,4 +30,7 @@ and (orientation: portrait) {
     .ising-videos{
         width: 100%;
     }
+    .ending-code-magnet{
+        margin-bottom: 5rem;
+    }
 }

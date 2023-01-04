@@ -25,5 +25,7 @@ and (orientation: portrait) {
     .astro-img{
         width: 100%;
     }
-
+    .final-astro-img{
+        margin-bottom: 5rem;
+    }
 }

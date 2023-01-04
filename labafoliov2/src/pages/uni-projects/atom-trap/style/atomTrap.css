@@ -33,4 +33,7 @@ and (orientation: portrait) {
     .atom-videos{
         width: 100%;
     }
+    .ending-code-trap{
+        margin-bottom: 5rem;
+    }
 }

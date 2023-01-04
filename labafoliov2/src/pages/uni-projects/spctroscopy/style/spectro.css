@@ -45,5 +45,8 @@ and (orientation: portrait) {
     .spec-img2{
         width: 100%;
     }
+    .ending-text-spectro{
+        margin-bottom: 5rem;
+    }
 
 }

@@ -40,4 +40,7 @@ and (orientation: portrait) {
     .solar-videos{
         width: 100%;
     }
+    .ending-code-solar{
+        margin-bottom: 5rem;
+    }
 }

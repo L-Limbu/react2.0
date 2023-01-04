@@ -23,7 +23,7 @@ export function AstroPage(){
             <h2>M33 Galaxy</h2>
             <img className='astro-img' src = {m33} alt='m33 galaxy'/>
             <h2>Helix Nebula</h2>
-            <img className='astro-img' src = {helix} alt='helix nebula'/>
+            <img className='astro-img final-astro-img' src = {helix} alt='helix nebula'/>
 
         </div>
     )

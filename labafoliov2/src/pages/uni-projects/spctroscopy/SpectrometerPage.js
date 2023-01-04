@@ -109,7 +109,7 @@ export function SpectrometerPage(){
                 <br />
             </p>
             <h4 className='spec-h'>Wrap up</h4>
-            <p className='spec-text'>
+            <p className='spec-text ending-text-spectro' >
                 This experiment was very easy to do with high precision too. But I will admit the most tricky part of this 
                 experiment was of course the Calibration Function, but the key insight to understanding it was to fit 
                 the diffracted light inside the light spectrum.

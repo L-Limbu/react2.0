@@ -82,7 +82,7 @@ export function SolarPage() {
             </video>
             <br/>
             <h3 >Code used</h3>
-            <a href='https://github.com/L-Limbu/Solar-system' rel="noopener noreferrer" target="_blank"> Python</a>
+            <a href='https://github.com/L-Limbu/Solar-system' className='ending-code-solar' rel="noopener noreferrer" target="_blank"> Python</a>
         </div>
     )
 }
