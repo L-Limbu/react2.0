@@ -1,0 +1,21 @@
+.choices-text-body{
+    height: 350px; width:80%;
+    margin:auto;
+
+}
+.uni-display-button {
+    text-decoration: none;
+    height: 2.5rem; width: 5rem;
+    color:white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#FF475A;
+    border: 2px solid #2E5339;
+    border-radius: 5%;
+}
+.uni-display-button:hover {
+    background-color: #00FDDC;
+    color:black;
+}
