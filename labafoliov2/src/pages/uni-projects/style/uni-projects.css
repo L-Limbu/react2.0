@@ -73,27 +73,28 @@ and (orientation: portrait) {
 
     .uni-page-container{
         width:100%;
+        margin: auto;
+        overflow: hidden;
+        padding-bottom: 2rem;
     }
     .uni-project-display{
         width: 100%;
+        margin: auto;
     }
     .uni-box{
         width: 6rem;
     }
-    .spectrometer{
-        position: absolute;
-        left: 20%;
-        top: 19rem;
-    }
-    .astrophotography{
-        position: absolute;
-        left: 55%;
-        top: 19rem;
-    }
+
     .uni-projects-row{
         display: grid;
         grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
         margin: auto;
-        margin-bottom: 3rem;
+        position: relative;
+    }
+    .uni-off-button{
+        position: absolute;
+        right:3rem;
+        top:19rem;
     }
 }
