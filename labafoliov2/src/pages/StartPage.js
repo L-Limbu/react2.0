@@ -2,7 +2,7 @@ import './style/pages.css'
 import { Outlet, Link } from "react-router-dom";
 import swanseaUni from './style/images/startpage/Swansea-University.gif'
 import projectPicture from './style/images/startpage/programmer.png'
-import lightBulb from './style/images/startpage/lightbulb.png'
+import onlightBulb from './style/images/startpage/on-light-bulb.png'
 import voyagerCD from './style/images/voyagerMessage.png'
 
 export function StartPage() {
@@ -35,7 +35,7 @@ export function StartPage() {
                 </div>
                 <div className='startBox4'>
 
-                    <img className='light-bulb' src={lightBulb} alt='lightbulb'></img>
+                    <img className='light-bulb' src={onlightBulb} alt='lightbulb'></img>
                     <img className='projectPicture' src={projectPicture} alt='cartoon of man working in computer'></img>
                 
                 </div>
