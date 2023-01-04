@@ -1,0 +1,18 @@
+.atom-trap-body{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+.atom-videos {
+    width: 640px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.square-mesh-container{
+    overflow:hidden;
+    display:block;
+}
+#square-mesh-video{
+    margin-top:-20px;
+}
