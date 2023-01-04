@@ -57,6 +57,8 @@ export function UniversityProjects() {
                     onClick={()=>activeValue('astro')}>
                     Looking through telescope</button>
 
+                    <div className='uni-off-button2' onClick={()=>setChosenValue('')}>OFF</div>
+
                 </div>
                 <br/>
 
