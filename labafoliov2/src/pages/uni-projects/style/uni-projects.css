@@ -1,4 +1,4 @@
-.container{
+.uni-page-container{
     background-color: #FFC15E;
     margin-top: 2.6rem;
     border-bottom: 2px solid #3D405B;
@@ -8,7 +8,6 @@
 .uni-projects-row{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-   
 }
 
 .uni-box{
@@ -60,4 +59,41 @@
 }
 .uni-off-button:hover{
     cursor:pointer;
+}
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+
+    .uni-page-container{
+        width:100%;
+    }
+    .uni-project-display{
+        width: 100%;
+    }
+    .uni-box{
+        width: 6rem;
+    }
+    .spectrometer{
+        position: absolute;
+        left: 20%;
+        top: 19rem;
+    }
+    .astrophotography{
+        position: absolute;
+        left: 55%;
+        top: 19rem;
+    }
+    .uni-projects-row{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
 }

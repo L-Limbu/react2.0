@@ -29,13 +29,12 @@ export function UniversityProjects() {
             default:
                 return 
         }
-
     }
     return (
         <div >
             <h1>University Project Page</h1>
 
-            <div className='container'>
+            <div className='uni-page-container'>
 
                 <div className="uni-projects-row">
                     <button className={`uni-box solar-system ${active && chosenValue === 'solar' ? 'solarActive' : ''}`}       
@@ -52,7 +51,7 @@ export function UniversityProjects() {
 
                     <button className={`uni-box spectrometer ${active && chosenValue === 'spectro'? 'spectroActive' : ''}`}     
                     onClick={()=>activeValue('spectro')}>
-                    Spectrometer</button>
+                    Spectro-meter</button>
 
                     <button className={`uni-box astrophotography ${active && chosenValue === 'astro'? 'astroActive' : ''}`}   
                     onClick={()=>activeValue('astro')}>

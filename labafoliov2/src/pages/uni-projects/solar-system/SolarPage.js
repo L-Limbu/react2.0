@@ -22,16 +22,15 @@ export function SolarPage() {
             Newton, the guy who 1st discovered or thought about this invisible force, 
             describes clearly how the planets moves around the stars.
             <br/><br/>
-
-            <div className='solar-page-list-wrapper'>
-                <ol><strong>He says that: </strong>
-                    <li>planets are like a fast cannon ball falling down. </li>
-                    <li>the cannon ball travels further as the speed of the cannon ball increases.</li>
-                    <li>when the speed is fast enough, the ball no longer hits the surface (assuming the earth is not flat 👀).</li>
-                    <li>therefore the cannon ball keeping on falling and is in orbit. </li>
-                </ol>
-            </div>
+            </p>
+            <ol className='solar-page-list-wrapper'><strong>He says that: </strong>
+                <li>planets are like a fast cannon ball falling down. </li>
+                <li>the cannon ball travels further as the speed of the cannon ball increases.</li>
+                <li>when the speed is fast enough, the ball no longer hits the surface (assuming the earth is not flat 👀).</li>
+                <li>therefore the cannon ball keeping on falling and is in orbit. </li>
+            </ol>
             <br/>
+            <p>
             This method is also how rockets goes to and stays on space, and most the things in space like satellite or 
             the International Space Station (ISS) stays in space.
             <br/>
@@ -54,10 +53,10 @@ export function SolarPage() {
 
             Lets look at the animated motion of these planets to gain a deeper insight (ask more questions) about what else is going on...
             </p>
-            <video className='solar-videos' controls loop playsinline={false}>
+            <video className='solar-videos' controls loop playsInline={false}>
                 <source src={video1} />
             </video>
-            <video className='solar-videos' controls  loop playsinline>
+            <video className='solar-videos' controls  loop playsInline={false}>
                 <source src={video3} />
             </video>
             <br/>
@@ -73,12 +72,12 @@ export function SolarPage() {
             Now why is that? Out of so many different configurations, the universe decided that solar system will be
             flat. Again more questions...
             </p>
-            <video className='solar-videos' controls  loop playsinline={true}>
+            <video className='solar-videos' controls  loop playsInline={true}>
                 <source src={video2} />
             </video>
             
             <br />
-            <video className='solar-videos' controls  loop playsinline>
+            <video className='solar-videos' controls  loop playsInline={false}>
                 <source src={video4} />
             </video>
             <br/>
