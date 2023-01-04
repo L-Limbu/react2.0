@@ -31,5 +31,6 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
     .choices-text-body{
         width: 90%;
+        height: 300px;
     }
 }
