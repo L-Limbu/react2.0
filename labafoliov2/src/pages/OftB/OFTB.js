@@ -13,7 +13,7 @@ export function OftB() {
                 </div>
                 <p>"To all those who exist in the universe, greetings." "Hello! Let there be peace everywhere." <br /> - <strong>Voyager 1</strong></p>
             </div>
-            <div style={{borderBottom: '0.7rem dashed', borderTop: '0.7rem dashed'}}>
+            <div className="argentina-block" style={{borderBottom: '0.7rem dashed', borderTop: '0.7rem dashed'}}>
 
                 <h2>---Sunday 18th December 2022---</h2>
                 <h2>Argentina Wins the World Cup</h2>

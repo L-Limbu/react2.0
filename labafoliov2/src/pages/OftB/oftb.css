@@ -17,5 +17,8 @@ and (orientation: portrait) {
     .oftb-img{
         width: 100%;
     }
+    .argentina-block{
+        margin-bottom: 4rem;
+    }
 
 }
