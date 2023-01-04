@@ -22,7 +22,7 @@ export function AtomMagnetPage(){
                 as a initail condition and now we will decrease the temperature of this system to reaveal their properties. 
             </p>
             <h4> Ferromagnetism</h4>
-            <video className='ising-videos' controls  loop playsinline={true}> <source src={video1} /></video>
+            <video className='ising-videos' controls  loop playsInline={true}> <source src={video1} /></video>
             <p>
                 Here we see that the atoms in the system quickly forms regions of aligned magnetic fields such that the net magnetic 
                 field is not 0. This occurs because as heat escapes the system, it will try to reach a magnetic equilibrium 

@@ -11,7 +11,7 @@ import { LeftSide } from './web-body/LeftSide';
 import { Quasars } from './projects/QuasarsCSS/Quasars';
 import { Rocket } from './projects/RocketCSS/Rocket';
 import { RightSide } from './web-body/RightSide'
-import { OftB } from './pages/OFTB';
+import { OftB } from './pages/OftB/OFTB';
 import { UniversityProjects } from './pages/uni-projects/UniversityPage';
 import { SolarPage } from './pages/uni-projects/solar-system/SolarPage';
 import { AtomTrapPage } from './pages/uni-projects/atom-trap/AtomTrapPage';

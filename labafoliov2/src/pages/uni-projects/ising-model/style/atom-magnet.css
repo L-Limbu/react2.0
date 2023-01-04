@@ -12,3 +12,22 @@
     height: 540px;
     width:720px;
 }
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+
+    .ising-img{
+        width: 400px;
+        height:400px;
+    }
+    .ising-videos{
+        width: 100%;
+    }
+}

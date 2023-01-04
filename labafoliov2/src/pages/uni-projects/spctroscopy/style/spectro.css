@@ -25,3 +25,25 @@
     text-align: left;
     font-size: 1rem;
 }
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+
+    .spec-img{
+        width: 100%;
+    }
+    .spec-img1{
+        width: 100%;
+    }
+    .spec-img2{
+        width: 100%;
+    }
+
+}

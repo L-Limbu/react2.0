@@ -27,7 +27,7 @@ export function AtomTrapPage(){
             In the picture the line seems a bit too thick so lets 
             look at the animation for a closer inspection to see what is really going on.
             </p>
-            <video className='atom-videos' controls  loop playsinline={true}> <source src={video1} /></video>
+            <video className='atom-videos' controls  loop playsInline={true}> <source src={video1} /></video>
             <br/>
             <p>
                 Looking at the animation the atom seems to be moving in circle within as circle hence the thick line in the 
@@ -45,7 +45,7 @@ export function AtomTrapPage(){
             </p>
             <br/>
             <div className='square-mesh-container'>
-                <video id='square-mesh-video' className='atom-videos' controls  loop playsinline={true}> <source src={video2} /></video>
+                <video id='square-mesh-video' className='atom-videos' controls  loop playsInline={true}> <source src={video2} /></video>
             </div>
             <br/>   
             <p>
@@ -58,7 +58,7 @@ export function AtomTrapPage(){
             <h4>Full Picture</h4>
             <img className='atom-img' src = {image3} alt='3-D motion of atom in atom trap'/>
             <br/>
-            <video className='atom-videos' controls  loop playsinline={true}> <source src={video3} /></video>
+            <video className='atom-videos' controls  loop playsInline={true}> <source src={video3} /></video>
             <br/>
             <p>
                 Looking at the 3D motion of the atom in the trap, we see that the path of the atom forms a cone shape as it moves 
