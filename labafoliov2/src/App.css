@@ -119,13 +119,13 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
 
     .left-side{
-      width:1%;
+      width:0%;
     }
     .right-side{
-      width:1%;
+      width:0%;
     }
     .center-side{
-      width: 90%;
+      width: 100%;
     }
 
 }
