@@ -1,5 +1,5 @@
 import { Tile } from "../Tile/Tile";
-import { initialBoard } from "./Constants";
+
 import './chess-board.css'
 const horizontalValues = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
 const verticalValues = ['1','2','3','4','5','6','7','8']
