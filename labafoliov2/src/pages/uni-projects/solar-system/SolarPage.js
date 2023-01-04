@@ -81,8 +81,10 @@ export function SolarPage() {
                 <source src={video4} />
             </video>
             <br/>
-            <h3 >Code used</h3>
-            <a href='https://github.com/L-Limbu/Solar-system' className='ending-code-solar' rel="noopener noreferrer" target="_blank"> Python</a>
+            <div className='ending-code-solar' >
+                <h3 >Code used</h3>
+                <a href='https://github.com/L-Limbu/Solar-system'  rel="noopener noreferrer" target="_blank"> Python</a>
+            </div>
         </div>
     )
 }

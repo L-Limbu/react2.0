@@ -67,8 +67,10 @@ export function AtomTrapPage(){
                 Also note that this trap is very small as the cone in the 3D picture could fit inside a 4 millimeter cube which 
                 is similar to a tiny bead.
             </p>
-            <h3>Code used</h3>
-            <a className="ending-code-trap" href='https://github.com/L-Limbu/Penning-Trap' rel="noopener noreferrer" target="_blank"> Python</a>
+            <div className="ending-code-trap" >
+                <h3>Code used</h3>
+                <a href='https://github.com/L-Limbu/Penning-Trap' rel="noopener noreferrer" target="_blank"> Python</a>
+            </div>
         </div>
     )
 }

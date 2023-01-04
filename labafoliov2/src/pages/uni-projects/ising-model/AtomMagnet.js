@@ -37,8 +37,10 @@ export function AtomMagnetPage(){
                 field such that they all try to minimise the magnetisation effect. 
                 Therefore the overall magnetic field from a antiferromagnetic materials is 0. 
             </p>
-            <h3>Code used</h3>
-            <a href='https://github.com/L-Limbu/Ising-Model' className='ending-code-magnet' rel="noopener noreferrer" target="_blank"> Python</a>
+            <div className='ending-code-magnet'>
+                <h3>Code used</h3>
+                <a  href='https://github.com/L-Limbu/Ising-Model'  rel="noopener noreferrer" target="_blank"> Python</a>
+            </div>
         </div>
     )
 }
