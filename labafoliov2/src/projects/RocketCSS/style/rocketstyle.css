@@ -1,0 +1,66 @@
+.rocket-body{
+    margin: auto;
+} 
+
+.rocket-main-body{
+    scale:0.3;
+    position: absolute;
+    left: 29rem;
+    z-index: 5;
+}
+
+.exhaust-body .flame-1 {
+    width: 40px;
+    height: 150px;
+    background:  #ff0;
+    border-radius: 50% 50% 50% 50% ;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 43.75rem;
+    top: 23rem;
+
+    box-shadow: 0 0 10px 5px rgb(255, 236, 28);
+    animation: flames 1s infinite linear;
+    z-index: 4;
+}
+.exhaust-body .flame-2 {
+    width: 80px;
+    height: 200px;
+    background:  #f80;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    left: 42.5rem;
+    top: 23rem;
+
+    box-shadow: 0 0 10px 5px #f80;
+    animation: flames-2 3s infinite linear;
+
+    z-index: 3;
+}
+.exhaust-body .flame-3 {
+    width: 100px;
+    height: 300px;
+    background: rgb(245, 88, 10);
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    left: 42rem;
+    top: 23rem;
+    box-shadow: 0 0 10px 5px rgb(245, 88, 10);
+    animation: flames-3 5s infinite linear;
+}
+
+@keyframes flames {
+    50% {
+      height: 160px;
+    }
+  }
+@keyframes flames-2 {
+    50% {
+      height: 250px;
+    }
+  }
+@keyframes flames-3 {
+    50% {
+      height: 350px;
+    }
+  }

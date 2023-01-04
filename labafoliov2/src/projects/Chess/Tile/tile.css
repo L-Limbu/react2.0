@@ -1,0 +1,44 @@
+.chess-tile{
+    display: grid;
+    place-content: center;
+    width: 80px;
+    height:80px;
+}
+
+.chess-tile .chess-piece {
+    width: 80px;
+    height:80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+}
+
+.dark-chess-tile{
+    background-color: rgb(240, 204, 111)
+}
+
+.light-chess-tile{
+    background-color: rgb(240, 231, 217);
+}
+
+.chess-tile img{
+    width: 80px;
+}
+
+.chess-tile-highlight:not(.chess-piece)::before {
+    content: " ";
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: rgba(0, 189, 28, 0.5);
+}
+.chess-tile-highlight.chess-piece-tile::before {
+    position: absolute;
+    content: " ";
+    width:90px;
+    height:90px;
+    border:5px solid rgba(255, 0, 0, 0.5);
+    background: none;
+    border-radius: 50%;
+}
+
