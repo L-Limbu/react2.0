@@ -1,5 +1,6 @@
 import voyagerImage from './style/images/voyagerMessage.png'
 import argentinaImage from './style/images/argentina.jpg'
+
 export function OftB() {
     return (
         <div style={{overflow:'auto'}}>
@@ -22,7 +23,7 @@ export function OftB() {
                     }}>
                 </div>
                 <p>
-                - Young French <strong>Kylian Mbappé</strong> equalises with a hat-trick in the final, refusing to let the veteran Messi have his fairy tale ending. <br />
+                - Young French <strong>Kylian Mbappé</strong> equalises as he scores a hat-trick in the final, refusing to let the veteran Messi have his fairy tale ending. <br />
                 - France lose in the penalty shootout. But Kylian Mbappé shows his brilliant talent ensuring future of Football is still exciting. <br />
                 - <strong>Lionel Messi</strong> finally ends the G.O.A.T debate between his rival <strong>Cristiano Ronaldo</strong>. 
                 </p>

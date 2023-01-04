@@ -2,7 +2,7 @@
    margin-top: 10rem;
     margin-left:2rem;
     position: absolute;
-    scale: 0.6;
+    scale: 0.7;
 }
 
 
@@ -30,7 +30,7 @@
     left:3rem;
     height: 6rem; width: 6rem;
     border: 1px solid aqua;
-    background-color: rgb(44, 18, 84);
+    background-color: rgb(104, 46, 189);
     box-shadow: 0 0 10px 5px aqua;
     opacity: 0.2;
     border-radius: 60%;
@@ -47,18 +47,19 @@
     animation: quasar-glow 20s infinite linear;
 }
 .r-quasar-beam-1{
-    height: 6rem; width: 0.5rem;
+    height: 8rem; width: 0.5rem;
     background-color: aqua;
     border: 1px solid aqua;
     border-bottom: none;
     border-radius: 50%;
     position: absolute;
-    left:5.6rem;
+    left:6rem;
     box-shadow: 0 0 10px 5px aqua;
+    transform: rotate(5deg);
     animation: quasar-active-beam 20s infinite linear;
 }
 .r-quasar-beam-2{
-    height: 6rem; width: 0.5rem;
+    height: 8rem; width: 0.5rem;
     background-color: aqua;
     border: 1px solid aqua;
     border-bottom: none;
@@ -68,6 +69,7 @@
     top:6rem;
     box-shadow: 0 0 10px 5px aqua;
     z-index:-1;
+    transform: rotate(5deg);
     animation: quasar-active-beam 20s infinite linear;
 }
 

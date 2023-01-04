@@ -11,3 +11,82 @@ ul li {
     text-decoration: none;
     list-style: none;
 }
+
+.start-link{
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: #2DD881;
+    scale:1;
+}
+.start-link:hover{
+    border: 2px solid black;
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+.swanseaPicture{
+    height: 15rem; width:30rem;
+    border-radius: 5%;
+}
+.startContainer{
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.startBox2{
+    border-radius: 5%;
+    margin-left: 2rem;
+    color: black;
+}
+.light-bulb{
+    height: 4rem; width:4rem;
+    fill: coral;
+    position: absolute;
+    right: 24rem;
+    animation: flickering 10s infinite linear;
+}
+
+
+.projectPicture{
+    height: 15rem; width:20rem;
+
+}
+
+.startBox3{
+    width:30rem;
+    border-radius: 5%;
+    margin-right: 2rem;
+    margin-top:2rem;
+}
+.recordHolder{
+    overflow: hidden;
+    height: 13.5rem;
+}
+.recordPicture{
+    margin:auto;
+    animation:spin 10s infinite linear;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    } 100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes flickering {
+    0%{
+        opacity: 0%;
+    } 5% {
+        opacity: 100%;
+    } 10% {
+        opacity: 0%;
+    } 15% {
+        opacity: 100%;
+    } 20% {
+        opacity: 0%;
+    } 25% {
+        opacity: 100%;
+    }
+}

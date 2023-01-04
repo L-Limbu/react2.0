@@ -1,7 +1,12 @@
 import { MiniEarth } from "./MiniEarth";
+import { MiniRocket } from "./MiniRocket";
 
 export function LeftSide(){
     return (
-        <MiniEarth />
+        <div>
+            <MiniEarth />
+            <MiniRocket />
+        </div>
+        
     )
 }

@@ -1,7 +1,7 @@
 import './style/navbar.css'
 import { NavLink } from 'react-router-dom'
 export function Navbar() {
-    const activeColor = '#F4F1DE'
+    const activeColor = '#FFF'
     const activeBorderColor = '#3D405B'
     return (
 
@@ -12,7 +12,7 @@ export function Navbar() {
                     style={({ isActive }) => {
                         return isActive ? { backgroundColor: activeColor, border: `0.1rem solid ${activeBorderColor}`, borderBottom: 'none' } : {}
                     }} 
-                    to="/" >Labafolio</NavLink>
+                    to="/" >Home</NavLink>
                 </li>
                 <li>
                     <NavLink 
@@ -29,7 +29,7 @@ export function Navbar() {
                     style={({ isActive }) => {
                         return isActive ? { backgroundColor: activeColor, border: `0.1rem solid ${activeBorderColor}`, borderBottom: 'none' } : {}
                     }} 
-                    to='/cie'>Uni Projects</NavLink>
+                    to='/uni-projects'>University Projects</NavLink>
                 </li>
                 <li>
                     <NavLink 
